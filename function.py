@@ -1,9 +1,5 @@
-def main():
-    a=(int)(input("enter the no"))
-    if(a%2==0):
-        print("even")
-    else:    
-        print("odd")
-
-
-main()
+def a(x, y):
+    print(x, y)
+def b(function, *args, **kwargs):
+    function(*args, **kwargs)
+b(a, 'hello', 'guvi')
